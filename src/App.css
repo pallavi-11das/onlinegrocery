@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f4f6;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 20px 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product, .cart {
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 8px;
+  padding: 16px;
+  width: 260px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.product img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.product h2 {
+  font-size: 1.2rem;
+  margin: 10px 0 5px;
+}
+
+.product p {
+  color: #333;
+}
+
+button {
+  background-color: #22c55e;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #16a34a;
+}
+
+.cart h2 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.remove-btn {
+  color: red;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.checkout-btn {
+  background-color: #3b82f6;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.checkout-btn:hover {
+  background-color: #2563eb;
+}
